@@ -4,34 +4,32 @@
 
 sketch.js
 
-```// The Nature of Code
+´´´
+// The Nature of Code
 // Daniel Shiffman
 // http://natureofcode.com
-
 let walker;
-
-function setup() {
+function setup() 
+{
   createCanvas(640, 240);
   walker = new Walker();
   background(255);
 }
-
-function draw() {
+function draw() 
+{
   walker.step();
   walker.show();
 }
-
 class Walker {
-  constructor() {
+  constructor() 
+{
     this.x = width / 2;
     this.y = height / 2;
   }
-
   show() {
     stroke(0);
     point(this.x, this.y);
   }
-
   step() {
     const choice = floor(random(4));
     if (choice == 0) {
@@ -44,5 +42,6 @@ class Walker {
       this.y--;
     }
   }
-}```
+}
+´´´
 
