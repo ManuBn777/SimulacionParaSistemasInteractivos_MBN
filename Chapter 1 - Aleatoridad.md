@@ -46,6 +46,11 @@ despues de un tiempo logre que siguera el concepto que tenia planteado, ademas d
 Aqui ya esta en una fase donde lo que tenian que hacer las hormigas lo hacen, ellas van por ahi ccreando caminos con sus feromonas (las cual hice que desaparecieran si eran muy antiguas para que no saturara la pantalla), ya esta la hormiga roja que es la que encuentra el azucar y al avisar en el hormiguero salen las 6 recolectoras para recoger un cubito de azucar hasta que desaparezca completamente
 En terminos de estetica, las hormigas ya no son ovalos sino que ya tienen forma de hormiga, decidi tambien añadir rocas y tal vez charcos, los cuales no me convencieron entonces decidi quitarlos
 
+<img width="1600" height="724" alt="d53cd7f6-313f-42ea-9413-b6a7d05b7031" src="https://github.com/user-attachments/assets/9a2bc274-c03c-4c65-8c13-a252845c8e0f" />
+<img width="1600" height="727" alt="1a88bbd0-9dc8-462f-a9fb-9aadfb346c4e" src="https://github.com/user-attachments/assets/b7010e9e-b1d9-48df-9b9d-4508126512a1" />
+
+Aqui ya esta terminado, decidi poner unos arbustos en los limites para visualizarlos mejor ademas de un difuminado en el suelo de claro a mas oscuro mientras mas lejos del hormiguero este
+
 
 
 
