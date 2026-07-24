@@ -3,7 +3,7 @@
 #### Reto de diseño: Navegar la incertidumbre
 
 ##### Concepto:
-posibilidad: Todas las hormigas salen del hormiguero, cada una realiza Traditional Random Walk, durante la exploración ellas dejan un rastro de feromonas que 
+Posibilidad: Todas las hormigas salen del hormiguero, cada una realiza Traditional Random Walk, durante la exploración ellas dejan un rastro de feromonas que 
 las hormigas suelen dejar que representa los caminos que pueden dejar el cual es totalmente libre
 
 
@@ -714,24 +714,45 @@ class Sugar {
 ```
 
 ##### URL 
-http://127.0.0.1:5500/
+https://editor.p5js.org/ManuBn777/sketches/pS3srC8KC
 
 ##### AUTOEVALUACION
 
 Criterio	                                                                         CUMPLO NO CUMPLO
-- Encargo completo: interpreto los cinco momentos dentro de un mismo sistema visual.	☐	    ☐	
+1 - Encargo completo: interpreto los cinco momentos dentro de un mismo sistema visual.	X	    ☐	
 
-- Simulación con intención: utilizo al menos tres conceptos de la unidad para 
-comunicar las ideas del encargo.	                                                    ☐  	☐	
+2 - Simulación con intención: utilizo al menos tres conceptos de la unidad para 
+comunicar las ideas del encargo.	                                                    X  	    ☐	
 
-- Interacción significativa: la interacción modifica el comportamiento o las
-probabilidades del sistema, que también funciona sin intervención.                  	☐	    ☐	
+3 - Interacción significativa: la interacción modifica el comportamiento o las
+probabilidades del sistema, que también funciona sin intervención.                  	X	    ☐	
 
-- Prototipo funcional: la experiencia puede ejecutarse y recorrerse completa 
-sin errores que impidan comprenderla.                                               	☐	    ☐	
+4 - Prototipo funcional: la experiencia puede ejecutarse y recorrerse completa 
+sin errores que impidan comprenderla.                                               	X	    ☐	
 
-- Proceso documentado: la bitácora evidencia avances, decisiones, dificultades, 
-soluciones, uso de IA y enlace al prototipo.                                        	☐	    ☐
+5 - Proceso documentado: la bitácora evidencia avances, decisiones, dificultades, 
+soluciones, uso de IA y enlace al prototipo.                                        	X	    ☐
 
+###### Evidencia
 
+1- Posibilidad: Todas las hormigas salen del hormiguero, cada una realiza Traditional Random Walk, durante la exploración ellas dejan un rastro de feromonas que 
+las hormigas suelen dejar que representa los caminos que pueden dejar el cual es totalmente libre
 
+Tendencia: Después de un tiempo comienza a aparecer patrones, las feromonas de las hormigas hacen que ciertos caminos sean recorrido con mayor frecuencia
+
+Normalidad: la mayoría de las hormigas presenta un comportamiento similar, explorar con velocidades cercanas al promedio y realizan pequeños cambios de 
+dirección siguiendo una distribución normal (gaussiana)
+
+Excepción: En ocasiones una hormiga realiza un Levy Flight, un desplazamiento mucho más largo y rápido que el resto, esto permite abandonar los caminos 
+habituales y descubrir nuevas zonas del entorno
+
+Influencia: El usuario puede colocar un cubo de azúcar en cualquier parte del escenario, cuando una hormiga encuentra el azúcar, regresa al hormiguero 
+y aparecen hormigas recolectoras que siguen el rastro de feromonas hacia el azúcar, este evento también es posible si ningún usuario interactúa
+
+2- He usado el random para el movimiento de las hormigas, el Lévy flight para que las hormigas les dé por dar un gran salto y aumentar su velocidad para ir a áreas que otras no han ido o incluso ir más lejos, también una distribución normal (gaussiana) para la velocidad y realizar cambios de dirección
+
+3- el crear un cubo de azúcar, que es un evento que suele suceder incluso sin la necesidad de usuario que las hormigas encuentran y avisan a otras hormigas para que sigan las feromonas de aquella hormiga que encontro el azucar
+
+4- El prototipo es funcional :D
+
+5- y para leer la bitacora volver mas arriba para leer
