@@ -32,3 +32,12 @@ Aqui podemos ver unos inicios del proyecto, por ahora estaba tratando de que fun
 Entonces decidi hacer un diseño de como me gustaria ver el producto final, mostrando como los caminos como raices que crean las hormigas con feromonas ademas
 de plantear como funcionaria los cubos de azucar y que estetica buscaba
 
+<img width="537" height="162" alt="a57126f2-47cb-40c2-a20b-2c86cd74e120" src="https://github.com/user-attachments/assets/fa62dceb-24d4-4054-8389-83498ff50a3f" />
+<img width="956" height="861" alt="332ceb76-bf01-45c3-aaa6-01bfb0af2eaf" src="https://github.com/user-attachments/assets/fec448a3-e622-4e13-84c2-31d12add4489" />
+
+Logre tener la estetica que queria pero las hormigas comenzaron ir todas a la derecha asi que vi como arreglarlo con ayuda de la IA
+
+
+
+
+
