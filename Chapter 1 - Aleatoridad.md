@@ -37,7 +37,9 @@ de plantear como funcionaria los cubos de azucar y que estetica buscaba
 
 Logre tener la estetica que queria pero las hormigas comenzaron ir todas a la derecha asi que vi como arreglarlo con ayuda de la IA
 
+<img width="956" height="857" alt="fd6c54c6-4168-471e-9ad1-820a22d3f542" src="https://github.com/user-attachments/assets/c9f3f487-a851-493e-ba57-97846cc57270" />
 
+despues de un tiempo logre que siguera el concepto que tenia planteado, ademas de crear una hormiga que al detectar el eazucar iria hacia la colonia para avisar y las recolectoras...pero aun no funcionaba y tenia un color cafe no tan agradable asi que decidi cambiar el color tambien
 
 
 
