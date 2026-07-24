@@ -41,5 +41,12 @@ Logre tener la estetica que queria pero las hormigas comenzaron ir todas a la de
 
 despues de un tiempo logre que siguera el concepto que tenia planteado, ademas de crear una hormiga que al detectar el eazucar iria hacia la colonia para avisar y las recolectoras...pero aun no funcionaba y tenia un color cafe no tan agradable asi que decidi cambiar el color tambien
 
+<img width="1600" height="722" alt="6f066177-e86f-4e86-aad0-4ee7c39cf83d" src="https://github.com/user-attachments/assets/4692ffda-4ac7-4eae-9786-0fcaa8d88aa4" />
+
+Aqui ya esta en una fase donde lo que tenian que hacer las hormigas lo hacen, ellas van por ahi ccreando caminos con sus feromonas (las cual hice que desaparecieran si eran muy antiguas para que no saturara la pantalla), ya esta la hormiga roja que es la que encuentra el azucar y al avisar en el hormiguero salen las 6 recolectoras para recoger un cubito de azucar hasta que desaparezca completamente
+En terminos de estetica, las hormigas ya no son ovalos sino que ya tienen forma de hormiga, decidi tambien añadir rocas y tal vez charcos, los cuales no me convencieron entonces decidi quitarlos
+
+
+
 
 
