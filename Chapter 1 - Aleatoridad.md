@@ -27,5 +27,8 @@ y aparecen hormigas recolectoras que siguen el rastro de feromonas hacia el azú
 
 Aqui podemos ver unos inicios del proyecto, por ahora estaba tratando de que funcionara lo basico como que las hormigas se movieran ademas del que hormiguero era un simple punto negro, casi un estilo demasiado minimalista, el problema que se juntaban como grupo de 5 o mas hormigas y se quedaban en un bucle girando unas con tras como manchas mas grandes
 
+<img width="1600" height="1600" alt="89291107-bb82-4001-81a6-76ca19865cb7" src="https://github.com/user-attachments/assets/8ea2e293-12d6-4110-baef-f0bcb58a49ad" />
 
+Entonces decidi hacer un diseño de como me gustaria ver el producto final, mostrando como los caminos como raices que crean las hormigas con feromonas ademas
+de plantear como funcionaria los cubos de azucar y que estetica buscaba
 
