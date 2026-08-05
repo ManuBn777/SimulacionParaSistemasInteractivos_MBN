@@ -320,13 +320,22 @@ class Particle {
 https://editor.p5js.org/ManuBn777/sketches/fnUx554S5
 
 ##### AUTOEVALUACION
-
+Criterio
+La intención es clara y perceptible en el comportamiento.	20%		
+Los tipos, cantidades, matriz y parámetros están justificados desde la intención.	25%		
+Comprendo y puedo modificar el funcionamiento técnico del sistema.	20%		
+El sistema produce variaciones con una identidad reconocible.	15%		
+Experimenté, comparé, seleccioné y descarté con criterios claros.	10%		
+Puedo distinguir y sustentar lo diseñado y lo emergente.	10%		
+Total	100%		
 
 ###### Evidencia
 
+- La intencion de las diferentes relaciones romanticas o no son percetibles en el comportamiento al menos desde mi punto de vista
+- Eso lo explico en la parte de particulas mas arriba y que era lo que buscaba
+- Si, creo que soy capaz si es necesario :D
+- Las variaciones de como se forman circulos y persecusiones son diferentes en toda caso, ademas que el diseño que escogi para cada particula hace que resalten tanto por su actitud y forma/diseño
+- Me pelee con la ia y conmigo misma, pero al final logre tener algo que me gusta y que esta dentro de los parametros de lo que me piden (espero)
+- Si :D
 
-Influencia: El usuario puede colocar un cubo de azúcar en cualquier parte del escenario, cuando una hormiga encuentra el azúcar, regresa al hormiguero 
-y aparecen hormigas recolectoras que siguen el rastro de feromonas hacia el azúcar, este evento también es posible si ningún usuario interactúa
-
-2- He usado el random para el movimiento de las hormigas, el Lévy flight para que las hormigas les dé por dar un gran salto y aumentar su velocidad para ir a áreas que otras no han ido o incluso ir más lejos, también una distribución normal (gaussiana) para la velocidad y realizar cambios de dirección
 
