@@ -349,11 +349,11 @@ Total	100%
 
 ###### Evidencia
 
-- La intencion de las diferentes relaciones romanticas o no son percetibles en el comportamiento al menos desde mi punto de vista
-- Eso lo explico en la parte de particulas mas arriba y que era lo que buscaba
-- Si, creo que soy capaz si es necesario :D
-- Las variaciones de como se forman circulos y persecusiones son diferentes en toda caso, ademas que el diseño que escogi para cada particula hace que resalten tanto por su actitud y forma/diseño
-- Me pelee con la ia y conmigo misma, pero al final logre tener algo que me gusta y que esta dentro de los parametros de lo que me piden (espero)
-- Si :D
+- La intención de las diferentes relaciones románticas o no son perceptibles en el comportamiento al menos desde mi punto de vista
+- Eso lo explico en la parte de partículas más arriba y qué era lo que buscaba
+- Sí, creo que soy capaz si es necesario :D
+- Las variaciones de cómo se forman círculos y persecuciones son diferentes en todo caso, además que el diseño que escogí para cada partícula hace que resalten tanto por su actitud y forma/diseño
+- Me peleé con la ia y conmigo misma, pero al final logré tener algo que me gusta y que está dentro de los parámetros de lo que me piden (espero)
+- Sí :D
 
 
