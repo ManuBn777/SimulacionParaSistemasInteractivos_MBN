@@ -60,6 +60,10 @@ let dy = other.pos.y - this.pos.y;
 
 ###### Fricción: Selecciona una fricción de 0.82 para que el movimiento fuera fluido y las partículas pudieran formar grupos sin moverse demasiado rápido
 
+###### Velocidad máxima: 
+Seleccioné una velocidad máxima de 3.5 para que las persecuciones fueran fáciles de observar y las partículas no atravesaran todo el sistema demasiado rápido, considere que fue un buen punto de velocidad
+
+
 
 
 
