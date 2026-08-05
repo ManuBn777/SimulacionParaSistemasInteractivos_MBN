@@ -40,6 +40,25 @@ Errantes / Aroace (80): Para que no se sienta tan solo el espacio hice que hubie
   [  0.2,  -0.4,   -0.1,  -0.8,  -0.3,   -0.4 ], // 4. Independencia
   [ -0.4,  -0.4,   -0.4,  -0.4,  -0.4,    0.0 ]  // 5. Errantes
 
+###### Intensidad y alcance de las relaciones:
+Cada relación tiene una fuerza y una distancia diferentes (lógicamente como en la vida real)
+Por ejemplo: La obsesión tiene el mayor alcance y la mayor fuerza para representar una persecución insistente
+En cambio, el amor tiene una fuerza moderada para formar gurpis sin atraer a todas las partículas
+
+let rMaxMatrix = [
+  [ 55,  65,  50,  90,  50,  40 ], // Amor (Radio restaurado a 55 para permitir la unión natural)
+  [ 65,  45,  60,  80,  40,  40 ], // Buscadoras
+  [ 50,  60,  45,  80,  40,  40 ], // Receptivas
+  [ 90,  80,  80, 110, 140,  60 ], // Obsesión
+  [ 50,  40,  40, 110,  40,  40 ], // Independencia
+  [ 40,  40,  40,  60,  40,  40 ]  // Aroace
+
+Lo mismo para con distancias de interacción, ella solo interactúan cuando están dentro de cierta distancia
+
+let dx = other.pos.x - this.pos.x;
+let dy = other.pos.y - this.pos.y;
+
+
 
 
 
