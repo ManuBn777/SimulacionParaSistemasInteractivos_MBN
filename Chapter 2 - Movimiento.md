@@ -23,6 +23,15 @@ Independencia: aquí quería representar a quienes quieren mantener su libertad 
 
 Errantes: Este tipo representa a quienes no participan en las dinámicas románticas, evitan a todo el mundo y se mueven libremente sin formar grupos estables
 
+###### Cantidad de partículas:
+Amor (120): Quería que estuviera presente en gran parte del sistema pues es la representacion pura del amor y que pudieran formar grupos visibles
+Buscadoras (90): Quería que hubiera suficientes para generar persecuciones si alguna receptiva estuviera cerca o que simplemente se mantenga muy cerca del amor
+Receptivas (90): Tienen la misma cantidad para mantener un equilibrio con las Buscadoras pero que también formen sus círculos entre ellas
+Obsesión (35): Es la población más pequeña porque representa un comportamiento menos común, pero mucho más intenso.
+Independencia (90): Quería que siempre existieran partículas que pudieran escapar de la Obsesión.
+Errantes / Aroace (80): Para que no se sienta tan solo el espacio hice que hubiera partículas recorriendo el espacio sin seguir las mismas dinámicas que las demás...ellas evitan a todo el mundo incluso a sí mismas
+
+
 
 
 ##### Versiones
