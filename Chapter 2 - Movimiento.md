@@ -1,4 +1,4 @@
-## UNIDAD 2
+<img width="996" height="636" alt="f1cae78e-059f-4266-bbac-03b3087a7d21" src="https://github.com/user-attachments/assets/d916dd90-2bd7-4a11-bfa4-935f0f64f287" />## UNIDAD 2
 ### Actividad 5
 #### Reto de diseño: una contradicción en movimiento
 
@@ -71,9 +71,21 @@ Obsesión: una esfera con púas para representar un vínculo dañino además de 
 Independencia: un círculo pequeño después de estar tan cerca de Obsesión, y rosado para que estuviera cerca del rojo del amor (ademas de que se notaba mas que el morado que tenia antes)
 Errantes: un anillo blanco para mostrar que no participan de las dinámicas románticas, escogi el blanco porque es un color mas o menos neutro 
 
-
-
 ##### Versiones
+
+<img width="920" height="617" alt="4e56f8cc-2734-48be-bffe-dbbb75267491" src="https://github.com/user-attachments/assets/186d8d12-2c5b-4e96-8e74-27dff8d90c35" />
+
+<img width="996" height="636" alt="f1cae78e-059f-4266-bbac-03b3087a7d21" src="https://github.com/user-attachments/assets/74628266-b5f8-4bfe-9d8a-27966e378904" />
+
+<img width="995" height="637" alt="86314faf-8de1-449c-b0a3-1106c1ad3988" src="https://github.com/user-attachments/assets/f501b8c8-646d-480a-831f-d1206b83e00f" />
+
+<img width="992" height="635" alt="84e816ea-9e3e-4a2c-a73b-5586b32cf75d" src="https://github.com/user-attachments/assets/8c3cb6bb-f704-4491-84e3-b04975d561d4" />
+
+<img width="993" height="633" alt="0464d5bc-c5ca-45fc-aaa0-410646ff4433" src="https://github.com/user-attachments/assets/91bc8fca-535b-45df-b1b6-3e4ba3b1d342" />
+
+<img width="998" height="636" alt="c756267c-5f6d-49fe-970d-6c2c1dd069c7" src="https://github.com/user-attachments/assets/b6dbbdb2-a0ca-49c0-9101-437227623a7c" />
+
+<img width="995" height="637" alt="2d867202-8f47-47ac-a37a-4e6c25976fb8" src="https://github.com/user-attachments/assets/e304c7ae-cef9-4dff-bae3-e9fbba7983e1" />
 
 
 ##### Codigo final:
