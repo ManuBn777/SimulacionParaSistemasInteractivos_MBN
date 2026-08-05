@@ -91,7 +91,228 @@ Errantes: un anillo blanco para mostrar que no participan de las dinámicas rom�
 ##### Codigo final:
 
 ```
+// Actividad 05: Particle Life Pro (Optimizado, con corazones juntos formando núcleos y receptivas rodeándolos)
 
+let particles = [];
+let grid = {};
+let cellSize = 75; 
+
+let typesConfig = [
+  { name: "Amor", count: 120, color: "#FF5964" },
+  { name: "Buscadoras", count: 90, color: "#0059ff" },
+  { name: "Receptivas", count: 90, color: "#FFa600" },
+  { name: "Obsesión", count: 35, color: "#61DE2A" },
+  { name: "Independencia", count: 90, color: "#ff0a8a" },
+  { name: "Errantes / Aroace", count: 80, color: "#FFFFFF" }
+];
+
+let matrix = [
+  //  Amor,   Busc,  Recept, Obses, Indep, Aroace
+  [  0.3,   0.4,    0.2,   0.1,   0.2,    0.1 ], // 0. Amor (Restaurado a 0.3 para que vuelvan a unirse y formar cúmulos)
+  [  0.6,  -0.7,    0.8,  -0.1,  -0.3,   -0.5 ], // 1. Buscadoras
+  [  0.1,  -0.9,    0.4,   0.0,  -0.2,   -0.5 ], // 2. Receptivas
+  [  0.0,   0.0,    0.0,  -0.6,   1.5,   -0.3 ], // 3. Obsesión
+  [  0.2,  -0.4,   -0.1,  -0.8,  -0.3,   -0.4 ], // 4. Independencia
+  [ -0.4,  -0.4,   -0.4,  -0.4,  -0.4,    0.0 ]  // 5. Errantes/Aroace
+];
+
+let rMaxMatrix = [
+  [ 55,  65,  50,  90,  50,  40 ], // Amor (Radio restaurado a 55 para permitir la unión natural)
+  [ 65,  45,  60,  80,  40,  40 ], // Buscadoras
+  [ 50,  60,  45,  80,  40,  40 ], // Receptivas
+  [ 90,  80,  80, 110, 140,  60 ], // Obsesión
+  [ 50,  40,  40, 110,  40,  40 ], // Independencia
+  [ 40,  40,  40,  60,  40,  40 ]  // Aroace
+];
+
+let rMin = 18;      
+let friction = 0.82; 
+vMax = 3.5;
+
+function setup() {
+  createCanvas(800, 600);
+  
+  for (let t = 0; t < typesConfig.length; t++) {
+    for (let i = 0; i < typesConfig[t].count; i++) {
+      particles.push(new Particle(random(width), random(height), t));
+    }
+  }
+}
+
+function draw() {
+  background(12, 12, 16, 220);
+
+  // 1. Spatial Hash Grid (Limpieza optimizada)
+  for (let key in grid) {
+    grid[key] = [];
+  }
+
+  for (let i = 0; i < particles.length; i++) {
+    let p = particles[i];
+    let cx = floor(p.pos.x / cellSize);
+    let cy = floor(p.pos.y / cellSize);
+    let cellKey = cx + "," + cy;
+    
+    if (!grid[cellKey]) {
+      grid[cellKey] = [];
+    }
+    grid[cellKey].push(p);
+  }
+
+  // 2. Calcular y actualizar
+  for (let i = 0; i < particles.length; i++) {
+    particles[i].calculateForces();
+  }
+
+  for (let i = 0; i < particles.length; i++) {
+    particles[i].update();
+    particles[i].display();
+  }
+}
+
+class Particle {
+  constructor(x, y, type) {
+    this.pos = createVector(x, y);
+    this.vel = createVector(random(-1, 1), random(-1, 1));
+    this.acc = createVector(0, 0);
+    this.type = type;
+    this.color = color(typesConfig[type].color);
+    this.noiseOffset = random(1000);
+  }
+
+  calculateForces() {
+    let fx = 0;
+    let fy = 0;
+
+    fx += random(-0.015, 0.015);
+    fy += random(-0.015, 0.015);
+
+    if (this.type === 5) {
+      let angle = noise(this.noiseOffset + millis() * 0.0004) * TWO_PI * 4;
+      fx += cos(angle) * 0.4;
+      fy += sin(angle) * 0.4;
+    }
+
+    let currentCx = floor(this.pos.x / cellSize);
+    let currentCy = floor(this.pos.y / cellSize);
+
+    for (let x = currentCx - 1; x <= currentCx + 1; x++) {
+      for (let y = currentCy - 1; y <= currentCy + 1; y++) {
+        let cellKey = x + "," + y;
+        let cell = grid[cellKey];
+        if (!cell) continue;
+
+        for (let j = 0; j < cell.length; j++) {
+          let other = cell[j];
+          if (other === this) continue;
+
+          let dx = other.pos.x - this.pos.x;
+          let dy = other.pos.y - this.pos.y;
+          
+          if (abs(dx) > width / 2) dx = dx > 0 ? dx - width : dx + width;
+          if (abs(dy) > height / 2) dy = dy > 0 ? dy - height : dy + height;
+
+          let dSq = dx * dx + dy * dy;
+          let rMax = rMaxMatrix[this.type][other.type];
+
+          if (dSq > 0 && dSq < rMax * rMax) {
+            let d = sqrt(dSq);
+            let f = matrix[this.type][other.type];
+            let forceMagnitude = 0;
+
+            if (d < rMin) {
+              forceMagnitude = (d / rMin - 1) * 3.5;
+            } else {
+              let percent = (d - rMin) / (rMax - rMin);
+              forceMagnitude = f * sin(percent * PI);
+            }
+
+            fx += (dx / d) * forceMagnitude;
+            fy += (dy / d) * forceMagnitude;
+          }
+        }
+      }
+    }
+
+    this.acc.x += fx;
+    this.acc.y += fy;
+  }
+
+  update() {
+    this.vel.x += this.acc.x;
+    this.vel.y += this.acc.y;
+    this.vel.mult(friction);
+    this.vel.limit(vMax);
+    
+    this.pos.add(this.vel);
+    this.acc.set(0, 0);
+
+    if (this.pos.x < 0) this.pos.x += width;
+    if (this.pos.x > width) this.pos.x -= width;
+    if (this.pos.y < 0) this.pos.y += height;
+    if (this.pos.y > height) this.pos.y -= height;
+  }
+
+  display() {
+    if (this.type === 0) {
+      // Amor: Corazón grande
+      noStroke();
+      fill(this.color);
+      push();
+      translate(this.pos.x, this.pos.y);
+      let s = 0.85;
+      scale(s);
+      triangle(-6, 0, 6, 0, 0, 9);
+      ellipse(-3, -2, 6, 6);
+      ellipse(3, -2, 6, 6);
+      pop();
+    } else if (this.type === 1) {
+      // Buscadoras: Triángulo
+      noStroke();
+      fill(this.color);
+      push();
+      translate(this.pos.x, this.pos.y);
+      triangle(0, -4.5, -4, 3.5, 4, 3.5);
+      pop();
+    } else if (this.type === 2) {
+      // Receptivas: Círculo normal
+      noStroke();
+      fill(this.color);
+      ellipse(this.pos.x, this.pos.y, 5);
+    } else if (this.type === 3) {
+      // Obsesión: Orbe grande con espinas triangulares
+      noStroke();
+      fill(this.color);
+      push();
+      translate(this.pos.x, this.pos.y);
+      ellipse(0, 0, 10, 10);
+      let numSpikes = 6;
+      let rotAngle = millis() * 0.001;
+      for (let i = 0; i < numSpikes; i++) {
+        let angle = rotAngle + (TWO_PI / numSpikes) * i;
+        push();
+        rotate(angle);
+        triangle(4, -1.5, 4, 1.5, 9, 0);
+        pop();
+      }
+      pop();
+    } else if (this.type === 4) {
+      // Independencia: Círculo translúcido
+      noStroke();
+      let c = color(typesConfig[4].color);
+      c.setAlpha(180);
+      fill(c);
+      ellipse(this.pos.x, this.pos.y, 4.5);
+    } else if (this.type === 5) {
+      // Errantes / Aroace: Círculo hueco (anillo)
+      noStroke();
+      noFill();
+      stroke(this.color);
+      strokeWeight(1.2);
+      ellipse(this.pos.x, this.pos.y, 6);
+    }
+  }
+}
 ```
 
 ##### URL 
