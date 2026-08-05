@@ -11,23 +11,19 @@ Quería mostrar que no todas las personas viven el amor de la misma manera, algu
 
 Hice en total 6 tipos de partículas diferentes 
 
-
 Amor: seleccione el amor como simbolismo visual de este, este se atrae a sí mismo y también se atrae a los demás por eso todos sus números son positivos
-
 
 Buscadoras: Quería que un tipo de partícula representara a esas personas que buscan constantemente una relación, quería que persiguieran a las receptivas para representar un amor no correspondido pero además que se sientan atraídas hacia el amor en general también porque es lo que buscan al final, solo un poco de amor
 
-
 Receptivas: (aunque de receptivas no tiene mucho excepto consigo mismas) quería representar a aquellos que ya encontraron su lugar o pareja, por eso forman pequeños grupos entre ellas y rechazan a las buscadoras
-
 
 Obsesión: selección a este tipo porque quería representar una relación tóxica y que solo persiguiera a un solo tipo de partícula
 
-
 Independencia: aquí quería representar a quienes quieren mantener su libertad y alejarse de esas relaciones tóxicas, huyen de la obsesión pero sin alejarse completamente del amor
 
-
 Errantes: Este tipo representa a quienes no participan en las dinámicas románticas, evitan a todo el mundo y se mueven libremente sin formar grupos estables
+
+
 
 ##### Versiones
 
