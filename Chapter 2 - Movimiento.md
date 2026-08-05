@@ -24,7 +24,7 @@ Independencia: aquí quería representar a quienes quieren mantener su libertad 
 Errantes: Este tipo representa a quienes no participan en las dinámicas románticas, evitan a todo el mundo y se mueven libremente sin formar grupos estables
 
 ###### Cantidad de partículas:
-Amor (120): Quería que estuviera presente en gran parte del sistema pues es la representacion pura del amor y que pudieran formar grupos visibles
+Amor (120): Quería que estuviera presente en gran parte del sistema pues es la representación pura del amor y que pudieran formar grupos visibles
 Buscadoras (90): Quería que hubiera suficientes para generar persecuciones si alguna receptiva estuviera cerca o que simplemente se mantenga muy cerca del amor
 Receptivas (90): Tienen la misma cantidad para mantener un equilibrio con las Buscadoras pero que también formen sus círculos entre ellas
 Obsesión (35): Es la población más pequeña porque representa un comportamiento menos común, pero mucho más intenso.
@@ -65,10 +65,15 @@ Seleccioné una velocidad máxima de 3.5 para que las persecuciones fueran fáci
 
 ###### Apariencia e interacción:
 Amor: un corazón porque representa el centro del sistema además es la representación clara del amor
+
 Buscadoras: un triángulo porque transmite dirección y búsqueda, además de mostrar una diferencia entre las receptivas, un triángulo /= un círculo
+
 Receptivas: un círculo por lo que menciona anteriormente, además en colores es lo opuesto de manera literal al color azul de las buscadoras
+
 Obsesión: una esfera con púas para representar un vínculo dañino además de un tono verde para representar lo tóxico
+
 Independencia: un círculo pequeño después de estar tan cerca de Obsesión, y rosado para que estuviera cerca del rojo del amor (ademas de que se notaba mas que el morado que tenia antes)
+
 Errantes: un anillo blanco para mostrar que no participan de las dinámicas románticas, escogi el blanco porque es un color mas o menos neutro 
 
 ##### Versiones
