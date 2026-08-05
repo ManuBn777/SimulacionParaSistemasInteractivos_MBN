@@ -58,6 +58,7 @@ Lo mismo para con distancias de interacción, ella solo interactúan cuando est�
 let dx = other.pos.x - this.pos.x;
 let dy = other.pos.y - this.pos.y;
 
+###### Fricción: Selecciona una fricción de 0.82 para que el movimiento fuera fluido y las partículas pudieran formar grupos sin moverse demasiado rápido
 
 
 
