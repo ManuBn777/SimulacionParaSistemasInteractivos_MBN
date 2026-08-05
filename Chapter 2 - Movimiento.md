@@ -63,7 +63,13 @@ let dy = other.pos.y - this.pos.y;
 ###### Velocidad máxima: 
 Seleccioné una velocidad máxima de 3.5 para que las persecuciones fueran fáciles de observar y las partículas no atravesaran todo el sistema demasiado rápido, considere que fue un buen punto de velocidad
 
-
+###### Apariencia e interacción:
+Amor: un corazón porque representa el centro del sistema además es la representación clara del amor
+Buscadoras: un triángulo porque transmite dirección y búsqueda, además de mostrar una diferencia entre las receptivas, un triángulo /= un círculo
+Receptivas: un círculo por lo que menciona anteriormente, además en colores es lo opuesto de manera literal al color azul de las buscadoras
+Obsesión: una esfera con púas para representar un vínculo dañino además de un tono verde para representar lo tóxico
+Independencia: un círculo pequeño después de estar tan cerca de Obsesión, y rosado para que estuviera cerca del rojo del amor (ademas de que se notaba mas que el morado que tenia antes)
+Errantes: un anillo blanco para mostrar que no participan de las dinámicas románticas, escogi el blanco porque es un color mas o menos neutro 
 
 
 
