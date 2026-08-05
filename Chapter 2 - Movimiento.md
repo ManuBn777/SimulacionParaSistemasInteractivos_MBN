@@ -31,6 +31,15 @@ Obsesión (35): Es la población más pequeña porque representa un comportamien
 Independencia (90): Quería que siempre existieran partículas que pudieran escapar de la Obsesión.
 Errantes / Aroace (80): Para que no se sienta tan solo el espacio hice que hubiera partículas recorriendo el espacio sin seguir las mismas dinámicas que las demás...ellas evitan a todo el mundo incluso a sí mismas
 
+###### Matriz de atracción, repulsión e indiferencia:
+  //  Amor,   Busc,  Recept, Obses, Indep, Aroace
+  [  0.3,   0.4,    0.2,   0.1,   0.2,    0.1 ], // 0. Amor
+  [  0.6,  -0.7,    0.8,  -0.1,  -0.3,   -0.5 ], // 1. Buscadoras
+  [  0.1,  -0.9,    0.4,   0.0,  -0.2,   -0.5 ], // 2. Receptivas
+  [  0.0,   0.0,    0.0,  -0.6,   1.5,   -0.3 ], // 3. Obsesión
+  [  0.2,  -0.4,   -0.1,  -0.8,  -0.3,   -0.4 ], // 4. Independencia
+  [ -0.4,  -0.4,   -0.4,  -0.4,  -0.4,    0.0 ]  // 5. Errantes
+
 
 
 
