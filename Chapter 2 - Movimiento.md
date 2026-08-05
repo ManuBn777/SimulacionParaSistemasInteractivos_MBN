@@ -334,12 +334,12 @@ https://editor.p5js.org/ManuBn777/sketches/fnUx554S5
 
 ##### AUTOEVALUACION
 Criterio
-La intención es clara y perceptible en el comportamiento.	20%		
-Los tipos, cantidades, matriz y parámetros están justificados desde la intención.	25%		
-Comprendo y puedo modificar el funcionamiento técnico del sistema.	20%		
-El sistema produce variaciones con una identidad reconocible.	15%		
-Experimenté, comparé, seleccioné y descarté con criterios claros.	10%		
-Puedo distinguir y sustentar lo diseñado y lo emergente.	10%		
+La intención es clara y perceptible en el comportamiento.	20%		✅
+Los tipos, cantidades, matriz y parámetros están justificados desde la intención.	25%		✅
+Comprendo y puedo modificar el funcionamiento técnico del sistema.	20%		✅
+El sistema produce variaciones con una identidad reconocible.	15%		✅
+Experimenté, comparé, seleccioné y descarté con criterios claros.	10%		✅
+Puedo distinguir y sustentar lo diseñado y lo emergente.	10%		✅
 Total	100%		
 
 ###### Evidencia
