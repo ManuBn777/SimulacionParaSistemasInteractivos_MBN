@@ -16,4 +16,20 @@ También se puede notar que aún estaban los sliders del otro repositorio, los c
 
 <img width="844" height="663" alt="920d0cf9-ae2f-45e3-90a3-2ab6e0e54d90" src="https://github.com/user-attachments/assets/aaf6da09-c8e9-409b-a058-dba5b24f9aa0" />
 
-Logre que hubiera mas particulas pero seguian de cierta manera tiesas (tristemente no tome foto de la interfaz)
+Logré que hubiera más partículas pero seguían de cierta manera tiesas (tristemente no tomé foto de la interfaz)
+
+#### Mapa del sistema
+
+Así está organizado el sistema (teniendo en cuenta que viene también del anterior repositorio)
+
+###### parameters.js
+Tiene todos los "estados" como la posición del puntero, en qué modo estoy (de los modos que tengo), los radios de cada forma, el ángulo del viento, y los disparadores de cada efecto (kick, estática, locura).
+
+###### createSimulation.js
+Aquí están todas las fuerzas, organizadas por modo (Arena, Esfera, Círculo, Puntero, Neutro), más algunas fuerzas universales que aplican sin importar el modo (viento, ondas del click, kick, contención).
+
+###### main.js
+Maneja todo el teclado, el mouse y el loop que se ejecuta en cada frame.
+
+###### labPanel.js
+Solo dibuja los botones del panel LAB (interfaz). Cada botón llama a la misma función que dispara la tecla correspondiente.
