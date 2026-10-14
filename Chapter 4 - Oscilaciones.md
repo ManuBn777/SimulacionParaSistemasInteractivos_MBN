@@ -5,7 +5,7 @@
 https://editor.p5js.org/ManuBn777/sketches/2U4a2Oji6
 
 #### Concepto
-
+Un coro virtual de 8 vocaloids en un escenario. Cada cantante tiene su propio ritmo y canta cada vez que completa su ciclo, pero también escucha a los demás y se va acomodando a ellos. Aquí nosotros somos los directores del coro no decidimos quién canta ni cuándo eso lo decide el modelo de Kuramoto pero sí podemos hacer que se desorganicen en grupo o individualmente pero también se controla qué tanto se escuchan, qué tan distintos son sus ritmos, la velocidad del coro y a quién desordeno
 
 #### Requisitos mínimos
 
