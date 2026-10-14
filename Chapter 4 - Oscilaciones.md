@@ -49,8 +49,16 @@ R// Pues hay varios uno es el indicador arriba a la derecha con el nombre del es
 #### Preguntas clave
 
 ¿Cómo convertir un modelo de autoorganización en un instrumento audiovisual performativo?
+R// Pues la idea es que uno no toca las notas, uno toca las condiciones. En un instrumento normal tú decides cada nota pero aquí quién canta y cuándo lo decide es Kuramoto (junto los ritmos propios de cada miembros tambien, como Kaito siendo mas lento en sincornizarse o Rin siendo la mas rapida), lo que yo hago como directora es cambiar qué tanto se escuchan, qué tan distintos son sus ritmos, la velocidad, y empujar a alguien o desordenarlos a todos (con los sliders que preparé) pues el coro responde a esos cambios 
 
 ¿Qué hace Kuramoto en esta experiencia que no podría resolverse simplemente mediante un reloj global, un secuenciador o temporizadores independientes?
+R//La cosa es que el público con los lightsticks es como un reloj global; siempre se mueve al pulso, pase lo que pase, como un metrónomo. Y si pongo la unión en 0, los cantantes son como temporizadores independientes; cada uno va a su bola.
+Pero con Kuramoto pasan cosas que un reloj no puede hacer: (gracias Mr IA por explicarme)
+  - Se sincronizan solos, nadie les dice "ahora canten juntos" sino que se escuchan entre sí
+  - Puede pasar que unos se junten y otros no (como Rin y Kaito que se quedan por fuera o les cuesta más)
+  - Si empujo a alguien haciéndole clic, el grupo lo vuelve a jalar solito, y qué tan rápido depende de qué tanto se escuchan
+  - Cuando están sincronizados sus movimientos coinciden como una coreografía aunque nadie la programó así
+O sea, un reloj nunca se desordena ni se arregla, pero mi coro sí puede perder el orden y volver a encontrarse mutuamente dependiendo de que tanto se escuchen
 
 <img width="1140" height="691" alt="image" src="https://github.com/user-attachments/assets/10c8113f-df5b-4a85-aa8d-9993841a2d5d" />
 Este fue el primer boceto que hice con la ia, siendo demasiado técnico por ahora quería plantear los 8 vocaloids, pero siento que se puede pulir aun mas 
