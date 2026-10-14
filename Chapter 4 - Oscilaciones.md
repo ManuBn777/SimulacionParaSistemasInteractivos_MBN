@@ -63,19 +63,19 @@ Revisé cada requisito y con el contenido anterior donde se puede demostrar desd
 
 **2. Puedo explicar claramente qué representa cada variable del modelo de Kuramoto en mi proyecto: 15/25**
 
-θ (fase) = En qué punto de su canción va cada cantante y cuando completa la vuelta canta
-ω (ritmo natural) = Cómo cantaría cada uno si estuviera solo este lo cambian el BPM y la diferencia de ritmos
-K (unión del coro) = Qué tanto se escuchan los cantantes entre sí
-N = los 8 cantantes, en la ecuación se divide entre N para que cuente el promedio del grupo
-sin(θⱼ − θᵢ) = La pregunta que cada cantante le hace a cada compañero: "¿Vas adelante o atrás de mí? (<-- este ejemplo me lo dio la IA y me gustó)
-R = Qué tan juntos están en este momento de 0 (desorden) a 1 (todos juntos)
+- θ (fase) = En qué punto de su canción va cada cantante y cuando completa la vuelta canta
+- ω (ritmo natural) = Cómo cantaría cada uno si estuviera solo este lo cambian el BPM y la diferencia de ritmos
+- K (unión del coro) = Qué tanto se escuchan los cantantes entre sí
+- N = los 8 cantantes, en la ecuación se divide entre N para que cuente el promedio del grupo
+- sin(θⱼ − θᵢ) = La pregunta que cada cantante le hace a cada compañero: "¿Vas adelante o atrás de mí? (<-- este ejemplo me lo dio la IA y me gustó)
+- R = Qué tan juntos están en este momento de 0 (desorden) a 1 (todos juntos)
 
 **3. Puedo explicar claramente cómo las variables del modelo producen el comportamiento observado en mi proyecto: 20/25**
 
 Según lo que entendí, K jala a todos hacia el mismo momento y la diferencia de ritmos empuja a cada uno hacia su propio ritmo. 
-Si gana la diferencia, hay desorden
-Si empatan, se juntan los de ritmos parecidos y los extremos quedan fuera (organización parcial, aquí pasa con Kaito y Rin)
-Si gana K, todos cantan juntos. R muestra en cada momento quién va ganando
+- Si gana la diferencia, hay desorden
+- Si empatan, se juntan los de ritmos parecidos y los extremos quedan fuera (organización parcial, aquí pasa con Kaito y Rin)
+- Si gana K, todos cantan juntos. R muestra en cada momento quién va ganando
 Cuando empujo a un cantante haciéndole clic, el grupo lo jala de vuelta y con más unión vuelve más rápido
 
 **4. Puedo demostrar que mi proyecto cumple con los objetivos establecidos en la unidad: 24/25**
