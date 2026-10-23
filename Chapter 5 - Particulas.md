@@ -2,7 +2,7 @@
 ### Actividad 2/3
 
 ##### Link
-
+https://manubn777.github.io/Chapter-5-Actividad-3/
 
 #### Concepto
 Decidí tomar como concepto semillas, plantas y raíces (por una conversación que tuve con el profe en su tiempo) y realmente me gustó además aprovechando el ecocampus que es la UPB siento que sería una buena correlación, además de cómo Alma habla del fórum como algo que nace de la convivencia de varias generaciones así que un bosque funciona casi igual, todo está conectado por debajo aunque no se vea
@@ -24,6 +24,4 @@ Quise ponerle un significado a cada cosa de manera sutil, teniendo en cuenta la 
 
 **Explicación y demostración**: Puedo mostrarla funcionando y explicar por qué está cada decisión (cuando esté presentando las diapositivas :D), porque casi todas salieron de probar y corregir con mis bocetos. Usé IA para el código, como ya se sabe, pero en sí el concepto y la composición fueron decisiones mías.
 
-
-#### Autoevaluación
 
