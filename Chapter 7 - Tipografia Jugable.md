@@ -19,7 +19,7 @@ R// La mision es rescatar la otra de N (de nintento), me base en Donkey Kong al 
 Las dos **N** son las dos jugadoras (separados por color además para representar a la nintendo switch)
 La N atrapada arriba es la que hay que rescatar (como la princesa peach en los juegos)
 Las E son las base de los suelos inclinados como en Donkey Kong
-La I son Las escaleras y las barras que atrapan a la N del centro ademas de las las que separan a los jugadores (aunque casi no se nota que son I)
+La I son Las escaleras y las barras que atrapan a la N del centro
 Las D Los botones (estan acostadas asi parecen mas botones)
 Las T son trampolines dispara T que destruyen las O
 Las O son los barriles que bajan rodando pues se parecen bastante
@@ -40,7 +40,7 @@ R// Cada letra hace algo según su forma estilo la O rueda como barril, la I es 
 
 - **Cumplimiento del encargo 25/25** R// Como ya mencione antes todo el juego está hecho con las letras de NINTENDO, nada es un dibujo aparte estilo las N son los jugadores y la otra N que hay que rescatar, las E los pisos, las I las escaleras, las D los botones, las T los trampolines y las O los barriles. Se juega en tiempo real en la web (gracias github pages :D) y está pensado para dos personas compartiendo un teclado, por ejemplo en un evento o con amigos o incluso para un trabajo de visualizacion (el link esta arriba)
 
-- **Comprensión y verificación 23/25** R//  Puedo explicar cómo funciona cada parte del juego, como los barriles que van cayendo en zigzag como en Donkey Kong, como las D abren las puertas, como las T son mini tira misiles y se van recargando, tambien es posible cambiar aspectos del codigo como el numero de pisos el cual yo subi de 6 a 8 porque lo senti algo corto despues de añadir unas mini instrucciones para que los usuarios lo entiendan, otro aspecto que se puede cambiar es la velocidad de las escaleras o si los barriles van mas rapido lo cual lo hace mas caotico
+- **Comprensión y verificación 23/25** R//  Puedo explicar cómo funciona cada parte del juego, como los barriles que van cayendo en zigzag como en Donkey Kong, como las D abren las puertas, como las T son mini tira misiles y se van recargando, tambien es posible cambiar aspectos del codigo como el numero de pisos el cual yo subi de 6 a 8 porque lo senti algo corto despues de añadir unas mini instrucciones para que los usuarios lo entiendan, otro aspecto que se puede cambiar es la velocidad de las escaleras(osea cuanto tiempo estan visibles antes de desaparecer de nuevo) o si los barriles van mas rapido lo cual lo hace mas caotico
 
 - **Interacción e identidad 25/25** R// el hecho de que nadie puede avanzar solo si la ayuda del otro, tiene que cooperar para poder avanzar, mientras se cuidan a si mismos de lso barriles pero tambien protegiendo al otro con el poderosimo tiramisiles T, hice pruebas con 4 amigos y la mayoria me dijo que era estilo "cooperativo" lo cual es muy parecido al atributo de "jugar juntos" que habia planteado, tambien con el feedback de esas personas decidi añadir las instrucciones al principio porque lo que hacia era explciar que hacia cada cosa por eso lo considere importante
 
