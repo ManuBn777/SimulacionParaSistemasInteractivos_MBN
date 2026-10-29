@@ -34,25 +34,31 @@ Maneja todo el teclado, el mouse y el loop que se ejecuta en cada frame.
 ###### labPanel.js
 Solo dibuja los botones del panel LAB (interfaz). Cada botón llama a la misma función que dispara la tecla correspondiente.
 
-AUTO EVALUACION:
+AUTO EVALUACION U3:
+1. Trazabilidad y comprensión del sistema — 19/25
 
-Criterio	Peso	Qué debe demostrar la evidencia	Valoración
-Trazabilidad y comprensión del sistema	25	Puedo señalar y explicar estado, fuerzas, integración, render y controles; además puedo ubicar qué partes produjo o modificó la IA.	
+Puedo señalar dónde está cada cosa (como en el mapa del sistema que hice), la posición y la velocidad de las partículas se guardan en createSimulation.js, ahí mismo están las fuerzas de cada modo, y main.js es el que escucha mis teclas y cambia los parámetros ademas se que primero se cambia la velocidad y después con esa se mueve la partícula como en el ejemplo del profe incluso sé qué partes hizo la IA pero hay algunas que todavía me cuesta explicar a fondo (sobre todo las fórmulas de las formas o otros detalles)
 
+2. Verificación del algoritmo de fuerzas — 15/25
 
-Verificación del algoritmo de fuerzas	25	Estudié en detalle el proyecto y aunque no comprenda toda la sintaxis, puedo identificar su arquitectura, sus partes, puedo aislar una fuerza central, formular una predicción, la ejecuté ya analicé, comparé el resultado, cambié deliberadamente un signo o parámetro y expliqué la diferencia.	
+Entiendo cómo está armado y puedo probar las fuerzas con mis propios controles, como apretar todo al centro con el click derecho o abrirlo con el kick aunque sinceramente no hice muchas pruebas fue mas estilo prueba y error hasta que saliera como me lo habia imaginado y insistia hasta que saliera lo suficientemente bien
 
+3. Diseño de fuerzas e intención — 18/20
 
-Diseño de fuerzas e intención	20	Las fuerzas y sus parámetros hacen perceptible una intención; el comportamiento surge de la dinámica y no de trayectorias previamente dibujadas.	
+Quería que las partículas se sintieran con voluntad propia, a veces como arena, a veces como un cuerpo que respira con el beat (esto en referencia que habia visto), a veces como humo que persigue al puntero todo teniendo en cuenta como lo visualizaba en mi mente además las partículas no se ponen a la fuerza en su lugar, sino que se van guiando solitas hasta llegar a la forma deseada (en el caso de modo circulo y modo esfera)
 
+4. Instrumento, score e interpretación — 12/15
 
-Instrumento, score e interpretación	15	El score conecta la escucha con decisiones; escogí pocos controles expresivos y puedo conducir el sistema en vivo sin que el audio lo controle automáticamente.	
+Tristemente no llegue a tocala en vivo con LesAlpx aun asi nada lo controla el audio, todo lo hago yo con el teclado y el mouse. Tiene muchísimos controles (demasiados la verdad) y la verdad al ser un proyecto "viejo" no me acuerdo que tenia en mente la Manuela del pasado, siento que podría haber organizado mejor, separando momentos de la cancion como por fases, pienso que tenia las ideas pero me falto organizar
 
+5. Experimentación y criterio frente a la IA — 7/10
 
-Experimentación y criterio frente a la IA	10	Comparé alternativas, registré hallazgos y descartes, corregí propuestas de IA y puedo justificar por qué conservé la versión presentada.	
+Usé 3 IAs diferentes porque ninguna hacía lo que quería, hubo un momento donde la pantalla se puso negra revisé la consola, vi que era un error de los shaders y decidí devolverme a una versión anterior. También pedí el esparcidor porque las partículas se quedaban atascadas en un punto, y decidí dejar el LAB como estaba pues era util con los botones.
 
+6. Entrega técnica y documentación — 4/5
 
-Entrega técnica y documentación	5	la URL pública abre; la bitácora permite verificar el proceso.	
-Total Puntos	???	
+La página abre y funciona y en la bitácora se ve parte del proceso, pero le faltan cosas como el score y las pruebas
+
+Total — 75/100
 
 
