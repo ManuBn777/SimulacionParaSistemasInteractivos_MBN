@@ -31,5 +31,28 @@ Aquí están todas las fuerzas, organizadas por modo (Arena, Esfera, Círculo, P
 ###### main.js
 Maneja todo el teclado, el mouse y el loop que se ejecuta en cada frame.
 
+AUTO EVALUACION:
+
+Criterio	Peso	Qué debe demostrar la evidencia	Valoración
+Trazabilidad y comprensión del sistema	25	Puedo señalar y explicar estado, fuerzas, integración, render y controles; además puedo ubicar qué partes produjo o modificó la IA.	
+
+
+Verificación del algoritmo de fuerzas	25	Estudié en detalle el proyecto y aunque no comprenda toda la sintaxis, puedo identificar su arquitectura, sus partes, puedo aislar una fuerza central, formular una predicción, la ejecuté ya analicé, comparé el resultado, cambié deliberadamente un signo o parámetro y expliqué la diferencia.	
+
+
+Diseño de fuerzas e intención	20	Las fuerzas y sus parámetros hacen perceptible una intención; el comportamiento surge de la dinámica y no de trayectorias previamente dibujadas.	
+
+
+Instrumento, score e interpretación	15	El score conecta la escucha con decisiones; escogí pocos controles expresivos y puedo conducir el sistema en vivo sin que el audio lo controle automáticamente.	
+
+
+Experimentación y criterio frente a la IA	10	Comparé alternativas, registré hallazgos y descartes, corregí propuestas de IA y puedo justificar por qué conservé la versión presentada.	
+
+
+Entrega técnica y documentación	5	la URL pública abre; la bitácora permite verificar el proceso.	
+Total Puntos	???	
+
+
+
 ###### labPanel.js
 Solo dibuja los botones del panel LAB (interfaz). Cada botón llama a la misma función que dispara la tecla correspondiente.
