@@ -31,6 +31,9 @@ Aquí están todas las fuerzas, organizadas por modo (Arena, Esfera, Círculo, P
 ###### main.js
 Maneja todo el teclado, el mouse y el loop que se ejecuta en cada frame.
 
+###### labPanel.js
+Solo dibuja los botones del panel LAB (interfaz). Cada botón llama a la misma función que dispara la tecla correspondiente.
+
 AUTO EVALUACION:
 
 Criterio	Peso	Qué debe demostrar la evidencia	Valoración
@@ -53,6 +56,3 @@ Entrega técnica y documentación	5	la URL pública abre; la bitácora permite v
 Total Puntos	???	
 
 
-
-###### labPanel.js
-Solo dibuja los botones del panel LAB (interfaz). Cada botón llama a la misma función que dispara la tecla correspondiente.
